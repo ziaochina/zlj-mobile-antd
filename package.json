@@ -1,0 +1,31 @@
+{
+  "isMakaApp": true,
+  "name": "zlj-mobile-antd",
+  "description": "zlj-mobile-antd application for registering the antd-mobile component.",
+  "version": "1.0.4",
+  "license": "MIT",
+  "author": "ziaochina",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaochina/zlj-mobile-antd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ziaochina/zlj-mobile-antd/issues"
+  },
+  "homepage": "https://github.com/ziaochina/zlj-mobile-antd#readme",
+  "scripts": {
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "antd-mobile": "*"
+  },
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps"
+}
